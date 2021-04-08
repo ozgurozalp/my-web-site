@@ -1,7 +1,13 @@
 export default function Home() {
 	return (
-		<div className="container">
-			<h1 className="text-9xl text-center mt-10 text-purple-600">Özgür ÖZALP</h1>
-		</div>
+		<>
+			<div className="grid"></div>
+			<div className="lines"></div>
+			<h1>
+				<span>ÖZGÜR</span>
+				<span>ÖZGÜR</span>
+			</h1>
+			<h2>ÖZALP</h2>
+		</>
 	);
 }
